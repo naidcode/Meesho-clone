@@ -16,6 +16,9 @@ body{
 .logo img{
   height: 24px;
 }
+.search-icon{
+  display: none;
+}
 .search-bar{
   flex:1;
   margin: 0 15px;
@@ -24,7 +27,7 @@ body{
   width: 95%;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid black;
+  border: 1px solid rgb(114, 114, 114);
 }
 .nav-link{
   display: flex;
@@ -40,13 +43,13 @@ body{
 .nav-link li a{
   font-size: 13px;
   word-spacing: none;
-  color: black;
+  color: rgb(129, 129, 129);
   text-decoration: none;
   font-weight: 500;
 }
  i{
   /* background-color: black; */
-  color:black;
+  color:#9f2089;
   text-decoration: none;
   font-weight: 500;
   line-height: 2rem;
@@ -56,14 +59,14 @@ body{
   margin-right: 3px;
 }
 .nav-link a{
-  color:black;
+  color:rgb(62, 61, 61);
   text-decoration: none;
   font-weight: 500;
   line-height: 2rem;
   font-size: 13px;
 }
 .nav-link img{
-  color: black;
+  color: rgb(125, 125, 125);
 }
 .links ul{
   display: flex;
@@ -78,14 +81,193 @@ body{
 }
 .links li a{
 text-decoration: none;
-color: black;
-font-size: 14px;
+color: rgb(123, 123, 123);
+font-size: 17px;
 font-weight: 600;
 }
 .links li a:hover{
   color: #9f2089;
   font-weight: 600;
   border-bottom: 2px solid #9f2089;
+}
+.hero{
+  height: 50vh;
+  background-image: url(Images/1746425994914.webp);
+  background-repeat: no-repeat;
+  background-size: max(1000px,100vw);
+}
+.hero h3{
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+  color: white;
+  text-align: end;
+  padding: 80px 60px;
+}
+.hero button{
+  padding: 20px 60px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border: 1px solid #9f2089;
+  border-radius: 8px;
+  float: right;
+  margin: -50px 60px;
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  body{
+  background-color: #9f2009;
+}
+}
+
+/* Medium Mobile */
+@media (min-width: 481px) and (max-width: 576px) {
+  body{
+  background-color: #102089;
+}
+.hero h3{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+  color: white;
+  text-align: start;
+  float: left;
+  padding: 10px 20px;
+}
+.hero button{
+  padding: 10px 30px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border: 1px solid #9f2089;
+  border-radius: 8px;
+  float: left;
+  margin: 80px -220px;
+}
+}
+
+/* Large Mobile */
+@media (min-width: 577px) and (max-width: 767px) {
+  body{
+  background-color: #9f2000;
+}
+.search-bar .search-icon i{
+  display: flex;
+  color:black;
+  font-size: 50px;
+}
+  .search-bar{
+  display: none;
+  flex:1;
+  margin: 0 15px;
+} 
+.search-bar input{
+  display: none;
+  width: 95%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(114, 114, 114);
+}
+.hero h3{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+  color: white;
+  text-align: start;
+  float: left;
+  padding: 10px 20px;
+}
+.hero button{
+  padding: 10px 30px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border: 1px solid #9f2089;
+  border-radius: 8px;
+  float: left;
+  margin: 80px -220px;
+}
+
+}
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body{
+  background-color: #9f89;
+}
+.hero h3{
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+  color: white;
+  text-align: end;
+  padding: 80px 50px;
+}
+.hero button{
+  padding: 15px 50px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border: 1px solid #9f2089;
+  border-radius: 8px;
+  float: right;
+  margin: -50px 50px;
+}
+}
+
+/* Small Laptop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body{
+  background-color: #7f2089;
+}
+.hero h3{
+  font-size: 2.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+  color: white;
+  text-align: end;
+  padding: 80px 60px;
+}
+.hero button{
+  padding: 18px 55px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border: 1px solid #9f2089;
+  border-radius: 8px;
+  float: right;
+  margin: -50px 60px;
+}
+}
+
+/* Medium Laptop */
+@media (min-width: 1281px) and (max-width: 1440px) {
+  body{
+  background-color: #9f8089;
+}
+}
+
+/* Desktop */
+@media (min-width: 1441px) and (max-width: 1920px) {
+  body{
+  background-color: #9f2050;
+}
+}
+
+/* Ultra Wide */
+@media (min-width: 1921px) {
+body{
+  background-color: #9f2089;
+}
 }
 
 
