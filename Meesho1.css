@@ -116,7 +116,58 @@ font-weight: 600;
   margin: -50px 60px;
 }
 
+.delivery{
+  background-color: #fdeefa;
+  padding: 10px;
 
+}
+.refund{
+  height: 40px;
+  width: 90%;
+  display: flex;
+  padding: 8px 0;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: white;
+  margin: auto;
+}
+.refund p{
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 2px;
+  color: black;
+  line-height: 0.2rem;
+  padding-left: 40px;
+  margin-top: -20px;
+}
+.refund a{
+  text-decoration: none;
+  line-height: 0rem;
+
+}
+.deli , .cash{
+  margin-right: 50px;
+}
+.grid-photo{
+  height: 35vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 40px;
+  transition: all 10s ;
+  padding: 20px;
+}
+.grid-photo span:hover{
+  transform: translatey(-10px) ;
+}
+.grid-photo p{
+  font-size: 0.8rem;
+  line-height: 2rem;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* Small Mobile */
 @media (max-width: 480px) {
   body{
@@ -206,7 +257,7 @@ font-weight: 600;
   border-bottom: 2px solid #9f2089;
 }
 .hero{
-  height: 50vh;
+  height: 20vh;
   background-image: url(Images/1746425994914.webp);
   background-repeat: no-repeat;
   background-size: max(670px,100vw);
@@ -231,7 +282,38 @@ font-weight: 600;
   float: left;
   margin: 70px -150px;
 }
+.delivery{
+  background-color: #fdeefa;
+  padding: 5px;
 
+}
+.refund{
+  height: 35px;
+  width: 90%;
+  display: flex;
+  padding: 5px 0;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: white;
+  margin: auto;
+}
+.refund p{
+  font-size: 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 0px;
+  color: black;
+  line-height: 0.2rem;
+  padding-left: 40px;
+  margin-top: -20px;
+}
+.refund a{
+  text-decoration: none;
+  line-height: 0rem;
+
+}
+.deli , .cash{
+  margin-right: 20px;
+}
 }
 
 /* Medium Mobile */
@@ -251,7 +333,7 @@ font-weight: 600;
   padding:0px 25px;
 }
 .hero{
-  height: 50vh;
+  height: 30vh;
   background-image: url(Images/1746425994914.webp);
   background-repeat: no-repeat;
   background-size: max(950px,100vw);
@@ -325,12 +407,27 @@ font-weight: 600;
   float: left;
   margin: 80px -220px;
 }
+.refund p{
+  font-size: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 2px;
+  color: black;
+  line-height: 0.2rem;
+  padding-left: 40px;
+  margin-top: -20px;
+}
 }
 
 /* Large Mobile */
 @media (min-width: 577px) and (max-width: 767px) {
   body{
   background-color: #9f2000;
+}
+.hero{
+  height: 30vh;
+  background-image: url(Images/1746425994914.webp);
+  background-repeat: no-repeat;
+  background-size: max(950px,100vw);
 }
 .links ul{
   display: flex;
@@ -400,6 +497,12 @@ font-weight: 600;
   body{
   background-color: #9f89;
 }
+.hero{
+  height: 30vh;
+  background-image: url(Images/1746425994914.webp);
+  background-repeat: no-repeat;
+  background-size: max(950px,100vw);
+}
 .hero h3{
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -417,7 +520,39 @@ font-weight: 600;
   border: 1px solid #9f2089;
   border-radius: 8px;
   float: right;
-  margin: -50px 50px;
+  margin: -60px 50px;
+}
+.delivery{
+  background-color: #fdeefa;
+  padding: 10px;
+
+}
+.refund{
+  height: 40px;
+  width: 90%;
+  display: flex;
+  padding: 0px 0;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: white;
+  margin: auto;
+}
+.refund p{
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 2px;
+  color: black;
+  line-height: 0.2rem;
+  padding-left: 40px;
+  margin-top: -20px;
+}
+.refund a{
+  text-decoration: none;
+  line-height: 0rem;
+
+}
+.deli , .cash{
+  margin-right: 50px;
 }
 }
 
@@ -425,6 +560,12 @@ font-weight: 600;
 @media (min-width: 1025px) and (max-width: 1280px) {
   body{
   background-color: #7f2089;
+}
+.hero{
+  height: 37vh;
+  background-image: url(Images/1746425994914.webp);
+  background-repeat: no-repeat;
+  background-size: max(950px,100vw);
 }
 .hero h3{
   font-size: 2.4rem;
@@ -451,6 +592,44 @@ font-weight: 600;
 @media (min-width: 1281px) and (max-width: 1440px) {
   body{
   background-color: #9f8089;
+}
+.hero{
+  height: 47vh;
+  background-image: url(Images/1746425994914.webp);
+  background-repeat: no-repeat;
+  background-size: max(950px,100vw);
+}
+.delivery{
+  background-color: #fdeefa;
+  /* padding: 10px; */
+
+}
+.refund{
+  /* height: 40px; */
+  width: 90%;
+  display: flex;
+  padding: 8px 0;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: white;
+  margin: auto;
+}
+.refund p{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 2px;
+  color: black;
+  line-height: 0.2rem;
+  padding-left: 40px;
+  margin-top: -20px;
+}
+.refund a{
+  text-decoration: none;
+  line-height: 0rem;
+
+}
+.deli , .cash{
+  margin-right: 50px;
 }
 }
 
