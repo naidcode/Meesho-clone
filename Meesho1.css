@@ -155,8 +155,11 @@ font-weight: 600;
   justify-content: center;
   align-items: center;
   gap: 10px 40px;
-  transition: all 10s ;
+  /* transition: all 10s ; */
   padding: 20px;
+}
+.grid-photo span{
+  transition: all 800ms ;
 }
 .grid-photo span:hover{
   transform: translatey(-10px) ;
@@ -167,6 +170,12 @@ font-weight: 600;
   color: black;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+.cover{
+  background-image: url(Images/1744698265981.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: max(1200px , 100vw);
 }
 /* Small Mobile */
 @media (max-width: 480px) {
@@ -635,16 +644,16 @@ font-weight: 600;
 
 /* Desktop */
 @media (min-width: 1441px) and (max-width: 1920px) {
-  body{
-  /* background-color: #9f2050; */
-}
+  /* body{
+  background-color: #9f2050;
+} */
 }
 
 /* Ultra Wide */
 @media (min-width: 1921px) {
-body{
-  /* background-color: #9f2089; */
-}
+/* body{
+  background-color: #9f2089;
+} */
 }
 
 
