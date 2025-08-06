@@ -149,7 +149,7 @@ font-weight: 600;
   margin-right: 50px;
 }
 .grid-photo{
-  height: 35vh;
+  height: 45vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -172,12 +172,54 @@ font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
 .cover{
-  height:90vh;
+  height:85vh;
   background-image: url(Images/1744698265981.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: max(1200px , 100vw);
 }
+.cover button{
+  color: 
+#ffd182;
+  padding: 20px 50px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: 
+#3f1f11;
+  border: 1px solid 
+#ffd182;
+  border-radius: 8px;
+  float: left;
+  margin: 520px 185px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px 100px;
+    padding:60px 0px 0px  400px;
+}
+    
+.div1 {
+    grid-row: span 3 / span 3;
+}
+
+.div2 {
+    grid-row: span 3 / span 3;
+}
+
+.div3 {
+    grid-row: span 3 / span 3;
+    grid-row-start: 4;
+}
+
+.div4 {
+    grid-row: span 3 / span 3;
+    grid-row-start: 4;
+}
+        
 /* Small Mobile */
 @media (max-width: 480px) {
   body{
@@ -461,7 +503,7 @@ font-weight: 600;
   margin-top: -20px;
 }
 .grid-photo{
-  height: 91vh;
+  height: 110vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -556,7 +598,7 @@ font-weight: 600;
   margin: 80px -220px;
 }
 .grid-photo{
-  height: 65vh;
+  height: 78vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -644,7 +686,7 @@ font-weight: 600;
   margin-right: 50px;
 }
 .grid-photo{
-  height: 45vh;
+  height: 78vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -804,5 +846,3 @@ font-weight: 600;
   background-color: #9f2089;
 } */
 }
-
-
