@@ -82,7 +82,7 @@ body{
 .links li a{
 text-decoration: none;
 color: rgb(123, 123, 123);
-font-size: 17px;
+font-size: 1rem;
 font-weight: 600;
 }
 .links li a:hover{
@@ -92,6 +92,7 @@ font-weight: 600;
 }
 .hero{
   height: 50vh;
+  max-width: 100%;
   background-image: url(Images/1746425994914.webp);
   background-repeat: no-repeat;
   background-size: max(1000px,100vw);
@@ -171,59 +172,11 @@ font-weight: 600;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.cover{
-  height:85vh;
-  background-image: url(Images/1744698265981.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: max(1200px , 100vw);
-}
-.cover button{
-  color: 
-#ffd182;
-  padding: 20px 50px;
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  background-color: 
-#3f1f11;
-  border: 1px solid 
-#ffd182;
-  border-radius: 8px;
-  float: left;
-  margin: 520px 185px;
-}
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 8px 100px;
-    padding:60px 0px 0px  400px;
-}
-    
-.div1 {
-    grid-row: span 3 / span 3;
-}
-
-.div2 {
-    grid-row: span 3 / span 3;
-}
-
-.div3 {
-    grid-row: span 3 / span 3;
-    grid-row-start: 4;
-}
-
-.div4 {
-    grid-row: span 3 / span 3;
-    grid-row-start: 4;
-}
-        
+     
 /* Small Mobile */
 @media (max-width: 480px) {
   body{
-  background-color: #9f2009;
+  /* background-color: #9f2009; */
 }
 .cantainer{
   display: flex;
@@ -405,7 +358,7 @@ font-weight: 600;
 /* Medium Mobile */
 @media (min-width: 481px) and (max-width: 576px) {
   body{
-  background-color: #102089;
+  /* background-color: #102089; */
 }
 .nav-link{
   display: flex;
@@ -530,7 +483,7 @@ font-weight: 600;
 /* Large Mobile */
 @media (min-width: 577px) and (max-width: 767px) {
   body{
-  background-color: #9f2000;
+  /* background-color: #9f2000; */
 }
 .hero{
   height: 30vh;
@@ -626,7 +579,7 @@ font-weight: 600;
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   body{
-  background-color: #9f89;
+  /* background-color: #9f89; */
 }
 .hero{
   height: 30vh;
@@ -713,7 +666,7 @@ font-weight: 600;
 /* Small Laptop */
 @media (min-width: 1025px) and (max-width: 1280px) {
   body{
-  background-color: #7f2089;
+  /* background-color: #7f2089; */
 }
 .hero{
   height: 37vh;
@@ -768,7 +721,7 @@ font-weight: 600;
 /* Medium Laptop */
 @media (min-width: 1281px) and (max-width: 1440px) {
   body{
-  background-color: #9f8089;
+  /* background-color: #9f8089; */
 }
 .hero{
   height: 47vh;
